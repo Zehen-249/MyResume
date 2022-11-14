@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.outerContainer{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 7px;
+    /* padding: 50px; */
+}
+
+nav{
+    margin: 0px 70px 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+nav h1{
+    font-size: 3rem;
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-color: rgb(134, 133, 133);
+    font-weight: bolder;    
+}
+table{
+    padding: 10px;
+    margin: 10px;
+    border-collapse:collapse;
+    border-width: 2px;
+
+}
+.Certi ul
+{
+margin: 10px 0px 30px 50px;
+
+}
+.Other ul
+{
+    padding: 10px 0 0 40px;
+    list-style: none;
+}
+
