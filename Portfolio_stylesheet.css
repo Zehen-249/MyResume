@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 *{
     margin: 0;
@@ -6,9 +6,8 @@
     box-sizing: border-box;
 }
 .outerContainer{
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Poppins';
     margin: 7px;
-    /* padding: 50px; */
 }
 
 nav{
@@ -32,16 +31,20 @@ table{
     margin: 10px;
     border-collapse:collapse;
     border-width: 2px;
+    box-shadow: 2px 2px 10px 1px rgba(128, 128, 128, 0.538);
+}
+th,td{
+    padding: 10px 15px;
+}
+.Certi ul li
+{
+margin: 10px 0px 0px 45px;
 
 }
-.Certi ul
+.Other ul li
 {
-margin: 10px 0px 30px 50px;
-
-}
-.Other ul
-{
-    padding: 10px 0 0 40px;
+    margin: 5px;
+    padding: 5px 0 0 40px;
     list-style: none;
 }
 
